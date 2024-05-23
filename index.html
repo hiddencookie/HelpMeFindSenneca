@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HelpMeFind</title>
+    <script src="particles.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="tv-container">
+        <div class="tv-screen">
+          <img class="tvImage" src="svh.png" alt="" srcset="" />
+        </div>
+      </div>
+
+      <h2 id="whereToBoss">Where to boss?</h2>
+      <input
+        type="text"
+        id="roomNumber"
+        placeholder="Room number"
+        onkeypress="findRoom(event)"
+      />
+      <br />
+    </div>
+    <div id="particles-js"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
