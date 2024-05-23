@@ -36,7 +36,7 @@ function findRoom(event) {
     // Now inputValue holds the filtered string
     console.log(inputValue);
 
-    var fileName = "Floors/" + inputValue + ".png";
+    var fileName = inputValue + ".png";
     if (files.includes(inputValue)) {
       turnOnTv(fileName);
     } else  {
